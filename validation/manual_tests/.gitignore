@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+manual_tests_summary.txt
+manual_tests_evidence.json

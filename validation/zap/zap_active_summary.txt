@@ -1,0 +1,8 @@
+MedAppoint - ZAP active scan summary
+------------------------------------
+Target:      http://localhost:3000
+High:        0
+Medium:      39
+Low:         31
+Informational: 160
+Total:       230

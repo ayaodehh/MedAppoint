@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NF{print $1, \"\\(name=\"$6\"\\)\"}')",
+      "Bash(curl -s -o /dev/null -w 'GET /dashboard -> %{http_code} loc=%{redirect_url}\\\\n' -b /tmp/cookies5.txt http://localhost:3000/dashboard)",
+      "Bash(curl -s -w \"\\\\nHTTP %{http_code}\\\\n\" -b /tmp/cookies5.txt http://localhost:3000/api/accounts/users/me/)",
+      "Bash(netstat -ano)",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -I {} taskkill //F //PID {})",
+      "Bash(./venv/Scripts/python.exe manage.py runserver 127.0.0.1:8000 --noreload)",
+      "Bash(curl -sf -o /dev/null http://127.0.0.1:8000/api/)",
+      "Bash(curl -s -o /dev/null -w \"Direct backend POST register \\(no slash\\) -> %{http_code}\\\\n\" -X POST http://127.0.0.1:8000/api/auth/register -H \"Content-Type: application/json\" -d '{\"username\":\"slashtest\",\"email\":\"st@example.com\",\"first_name\":\"S\",\"last_name\":\"T\",\"phone_number\":\"+15550101\",\"password\":\"Strong-Pass-9999\",\"medical_record_number\":\"MRN-ST-001\",\"date_of_birth\":\"1990-01-01\"}')",
+      "Bash(awk 'NF{print \"host=\"$1, \"name=\"$6}')",
+      "Bash(curl -s -o /dev/null -w 'GET /dashboard -> %{http_code} loc=%{redirect_url}\\\\n' -b /tmp/cookies6.txt http://localhost:3000/dashboard)",
+      "Bash(curl -s -w \"\\\\n-> HTTP %{http_code}\\\\n\" -b /tmp/cookies6.txt http://localhost:3000/api/accounts/users/me/)",
+      "Bash(curl -sf -o /dev/null http://localhost:3000/)"
+    ]
+  }
+}
