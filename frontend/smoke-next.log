@@ -1,0 +1,15 @@
+   ▲ Next.js 15.5.15
+   - Local:        http://127.0.0.1:3010
+   - Network:      http://127.0.0.1:3010
+
+ ✓ Starting...
+ ✓ Ready in 2s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.8s (765 modules)
+ GET / 200 in 4187ms
+ ✓ Compiled /middleware in 250ms (114 modules)
+ ○ Compiling /login ...
+ ✓ Compiled /login in 2.1s (960 modules)
+ GET /login 200 in 2406ms
+ ✓ Compiled /staff/login in 312ms (967 modules)
+ GET /staff/login 200 in 539ms

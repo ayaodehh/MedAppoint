@@ -1,0 +1,9 @@
+{
+  "/api/[...path]/route": "app/api/[...path]/route.js",
+  "/(patient)/page": "app/(patient)/page.js",
+  "/(staff)/staff/login/page": "app/(staff)/staff/login/page.js",
+  "/(staff)/staff/appointments/page": "app/(staff)/staff/appointments/page.js",
+  "/(staff)/staff/schedule/page": "app/(staff)/staff/schedule/page.js",
+  "/(patient)/login/page": "app/(patient)/login/page.js",
+  "/(patient)/dashboard/page": "app/(patient)/dashboard/page.js"
+}
